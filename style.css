@@ -1,6 +1,7 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Yu Gothic', sans-serif;
 }
 
 ul {
@@ -31,13 +32,14 @@ footer {
 
 .top-cover {
     background-image: url('./images/top.png');
+    background-size: cover;
     background-repeat: no-repeat;
     height: 30rem;
 }
 
 .top-cover h1 {
     border: 1px solid transparent;
-    padding: .5rem 0;
+    padding: 2rem 0;
     background: rgba(255, 248, 221, .8);
     font-size: 2rem;
     position: relative;
@@ -46,11 +48,11 @@ footer {
 
 .top-cover p {
     border: 0 solid transparent;
-    padding: .5rem 0;
+    padding: 1rem 0;
     font-size: 1.5rem;
     background: rgba(255, 248, 221, .8);
     position: relative;
-    top: 12rem;
+    top: 10rem;
 }
 
 .store-links {
@@ -99,11 +101,10 @@ img.app-logo {
 
     .top-cover h1 {
         top: 20vh;
-        padding: 2rem;
     }
 
     .top-cover p {
-        top: 45vh;
+        top: 40vh;
         padding: 2rem;
         font-weight: bold;
     }
