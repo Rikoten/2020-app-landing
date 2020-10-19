@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Yu Gothic', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+body {
+    text-align: center;
+    background: #fff8dd;
+}
+
+p {
+    padding: 0 .5rem;
+}
+
+h1, h2 {
+    font-size: 1rem;
+}
+
+body > * {
+    margin-bottom: 4rem;
+}
+
+footer {
+    margin-bottom: 0;
+}
+
+.top-cover {
+    background-image: url('./images/top.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30rem;
+}
+
+.top-cover h1 {
+    border: 1px solid transparent;
+    padding: 2rem 0;
+    background: rgba(255, 248, 221, .8);
+    font-size: 2rem;
+    position: relative;
+    top: 4rem;
+}
+
+.top-cover p {
+    border: 0 solid transparent;
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    background: rgba(255, 248, 221, .8);
+    position: relative;
+    top: 10rem;
+}
+
+.store-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.store-links img {
+    height: 3rem;
+    margin: .5rem 2rem;
+}
+
+img.app-logo {
+    height: 8rem;
+}
+
+.description h1 {
+    margin-bottom: 2rem;
+}
+
+.description p {
+    margin-top: 1rem;
+}
+
+.features img {
+    width: 100%;
+}
+
+.features li {
+    margin: 2rem auto 4rem auto;
+}
+
+.features h2 {
+    margin: 1rem auto 2rem auto;
+}
+
+@media screen and (min-width: 600px) {
+    h1, h2 {
+        font-size: 1.5rem;
+    }
+
+    .top-cover {
+        height: 80vh;
+    }
+
+    .top-cover h1 {
+        top: 20vh;
+    }
+
+    .top-cover p {
+        top: 40vh;
+        padding: 2rem;
+        font-weight: bold;
+    }
+
+    .description p {
+        font-size: 1.3rem;
+    }
+
+    .app-links img {
+        height: 5rem;
+        margin: .5rem 2rem;
+    }
+
+    .features ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .features li {
+        padding: 0 1rem;
+        width: 25rem;
+    }
+
+    .app-links img.app-logo {
+        margin: 2rem auto;
+    }
+
+    .app-links .store-links {
+        margin-top: 2rem;
+    }
+}
