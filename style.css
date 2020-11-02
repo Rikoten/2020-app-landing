@@ -90,6 +90,29 @@ img.app-logo {
     margin: 1rem auto 2rem auto;
 }
 
+.app-links > div {
+    margin-bottom: 4rem;
+}
+
+.pamph-description img {
+    width: 60vw;
+    max-width: 360px;
+}
+
+.pamph-description h2 {
+    margin-bottom: 2rem;
+}
+
+.pamph-description ul {
+    width: 25rem;
+    margin: auto auto;
+    list-style: disc;
+}
+
+.pamph-description li {
+    text-align: left;
+}
+
 @media screen and (min-width: 600px) {
     h1, h2 {
         font-size: 1.5rem;
