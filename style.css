@@ -105,6 +105,8 @@ img.app-logo {
 
 .pamph-description ul {
     width: 25rem;
+    max-width: 100vw;
+    padding-left: 40px;
     margin: auto auto;
     list-style: disc;
 }
