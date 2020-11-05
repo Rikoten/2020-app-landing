@@ -30,6 +30,23 @@ footer {
     margin-bottom: 0;
 }
 
+.main-site {
+    position: fixed;
+    bottom: 1.5rem;
+    right: 0;
+    background: linear-gradient(to right, #1A2D63 70%, #243D7D 90%);
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: .5rem 1rem .5rem 2rem;
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+}
+.main-site::after {
+    content: '>';
+    padding-left: 1rem;
+}
+
 .top-cover {
     background-image: url('./images/top.jpg');
     background-size: cover;
