@@ -41,6 +41,7 @@ footer {
     padding: .5rem 1rem .5rem 2rem;
     border-top-left-radius: 3rem;
     border-bottom-left-radius: 3rem;
+    z-index: 100;
 }
 .main-site::after {
     content: '>';
